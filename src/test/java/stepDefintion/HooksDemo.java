@@ -20,7 +20,7 @@ public class HooksDemo {
 	@Then("user is on the third page")
 	public void user_is_on_the_third_page() {
 		
-		System.out.println("this is my third page");
+		System.out.println("this is my fouth page");
 	}
 
 }
