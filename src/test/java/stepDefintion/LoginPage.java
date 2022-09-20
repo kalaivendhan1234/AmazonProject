@@ -55,5 +55,7 @@ public class LoginPage {
 	public void user_proceeds_to_the_checkout() {
 		System.out.println("user proceeds to the checkout");
 	}
+	
+	
 
 }
