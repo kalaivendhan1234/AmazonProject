@@ -66,7 +66,7 @@ public class LoginPage {
 
 	@Then("user uses the gpay")
 	public void user_gpay() {
-		System.out.println("user proceeds to the checkout");
+		System.out.println("user");
 	}
 
 }
