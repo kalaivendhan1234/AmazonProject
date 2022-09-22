@@ -16,6 +16,7 @@ public class LoginPage {
 	public void user_is_on_the_amazon_login_page() {
 		System.out.println("user is on login page");
 	}
+
 	@Given("User is on the search  page")
 	public void user_is_on_the_search_page() {
 		System.out.println("user is on search page");
@@ -53,6 +54,16 @@ public class LoginPage {
 
 	@Then("user proceeds to the checkout")
 	public void user_proceeds_to_the_checkout() {
+		System.out.println("user proceeds to the checkout");
+	}
+
+	@Then("user does the payment")
+	public void user_payment() {
+		System.out.println("user proceeds to the checkout");
+	}
+
+	@Then("user uses the gpay")
+	public void user_gpay() {
 		System.out.println("user proceeds to the checkout");
 	}
 
