@@ -18,7 +18,7 @@ public class LoginPage {
 	}
 	@Given("User is on the search  page")
 	public void user_is_on_the_search_page() {
-		System.out.println("user is on login page");
+		System.out.println("user is on search page");
 	}
 
 	@When("user enters the username and password")
